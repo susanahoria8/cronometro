@@ -1,0 +1,48 @@
+.container{
+	display: grid;
+	justify-content: center;
+}
+.Base {
+	background-color: #FF9BD2;
+	height: 300px;
+	width: 300px;
+	border: black solid 5px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+	box-shadow: 10px 10px 5px rgba(227, 61, 148, 1.0);
+}
+
+.Display{
+	background-color: #d3dae1;
+	height: 250px;
+	width: 250px;
+	border: black solid 5px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: sans-serif;
+
+	
+
+}
+
+h2{
+	text-align: center;
+	font-size: 80px;
+	color: #D63484;
+	margin: 0px;
+	margin-bottom: 5px;
+	font-family: "Calculator";
+}
+.small{
+	width: 50px;
+	position: absolute;
+	left: 730px;
+	top: 345px;
+	transform: rotate(35deg);
+}
